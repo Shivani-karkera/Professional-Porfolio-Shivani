@@ -7,9 +7,7 @@ interface Project {
   title: string;
   techStack: string;
   image: string;
-  owner: string;
   githubUrl?: string;
-  caseStudyUrl?: string;
 }
 
 interface FeaturedProjectsProps {
