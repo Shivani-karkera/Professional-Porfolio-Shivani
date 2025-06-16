@@ -341,7 +341,7 @@ const SkillsSection = () => {
                                 variant="outline"
                               >
                                 <img
-                                  src={`/src/images/icons/${skill.icon}.png`}
+                                  src={`/images/icons/${skill.icon}.png`}
                                   alt={skill.name}
                                   className="w-4 h-4"
                                   onError={(e) => {

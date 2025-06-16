@@ -120,7 +120,7 @@ const ContactSection = ({ isVisible = true, onClose }: ContactSectionProps) => {
                     className="w-full bg-cyan-500 hover:bg-cyan-600 text-white py-6 text-lg mt-6"
                     onClick={() => {
                       const link = document.createElement("a");
-                      link.href = "/src/resume/SHIVANI.pdf";
+                      link.href = "/resume/SHIVANI.pdf";
                       link.download = "SHIVANI_Resume.pdf";
                       link.click();
                     }}

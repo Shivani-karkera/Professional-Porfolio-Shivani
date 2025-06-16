@@ -22,7 +22,7 @@ const HeroSection = ({
   return (
     <section className="relative w-full h-[600px] bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden">
       {/* Background elements */}
-      <div className="absolute inset-0 bg-[url('/src/images/bg1.jpg')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('/images/bg1.jpg')] bg-cover bg-center opacity-10"></div>
 
       {/* Content container */}
       <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center">
@@ -81,7 +81,7 @@ const HeroSection = ({
             style={{ boxShadow: "0 0 20px rgba(45, 212, 191, 0.2)" }}
           >
             <img
-              src="/src/images/bg2.jpg"
+              src="/images/bg2.jpg"
               alt="Technology Background"
               className="w-full h-full object-cover"
             />
@@ -96,7 +96,7 @@ const HeroSection = ({
             style={{ boxShadow: "0 0 20px rgba(45, 212, 191, 0.2)" }}
           >
             <img
-              src="/src/images/bg3.jpg"
+              src="/images/bg3.jpg"
               alt="Technology Background"
               className="w-full h-full object-cover"
             />
@@ -111,7 +111,7 @@ const HeroSection = ({
             style={{ boxShadow: "0 0 20px rgba(45, 212, 191, 0.2)" }}
           >
             <img
-              src="/src/images/bg4.jpg"
+              src="/images/bg4.jpg"
               alt="Technology Background"
               className="w-full h-full object-cover"
             />
